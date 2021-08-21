@@ -24,7 +24,7 @@ export const SerachScreen = ({ history }) => {
     const handleSearch = (e) => {
         e.preventDefault();
         history.push(`?q=${hero}`);
-        console.log(hero);
+        // console.log(hero);
     }
 
     return (

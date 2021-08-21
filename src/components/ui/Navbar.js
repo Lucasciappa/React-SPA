@@ -20,7 +20,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             
             <Link 
-                className="navbar-brand animate__animated animate__backInUp" 
+                className="navbar-brand" 
                 to="/"
             >
                 <b>Heroes</b>App
